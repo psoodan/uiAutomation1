@@ -16,6 +16,7 @@ public class VerifyTitle {
 		driver = new ChromeDriver();
 		driver.get("http://learn-automation.com/");
 		Assert.assertTrue(driver.getTitle().contains("Selenium"));
+		System.out.println("Test1");
 	}
 
 }
